@@ -1,0 +1,63 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>SINGLE LINE SYNTAX</h1>
+        <div> 
+            Hello from index view
+        </div>
+        <br />
+        <div>
+            @DateTime.Now
+        </div>
+        <br />
+        <div>
+            @DateTime.Today.AddDays(5)
+        </div>
+        <br />
+        <div>
+            @(10-2)
+        </div>
+        <br />
+        <div>
+            @DateTime.Today.Day
+        </div>
+        <br />
+        <div>
+            @DateTime.Today.DayOfWeek
+        </div>
+    </div>
+    <hr />
+    <div>
+        <h1>MULTI LINE SYNTAX</h1>
+        <div>
+            @{ 
+                var a = 1;
+                var b = 5;
+                var c = a + b;
+
+                var currenttime = DateTime.Now;
+                var colorlist = new List<string>() { "red", "Green", "Black" };
+            }
+            <div>
+                <label>@c</label>
+                <br /><br />
+                <label>@currenttime</label><br /><br />
+                <label>@colorlist.FirstOrDefault()</label>
+                <br />
+                <hr />
+            </div>
+            <div>
+                <h3>kedstechnology@gmail.com</h3>
+                <h3>Twitter Username = @@kedardhumal7028 </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
