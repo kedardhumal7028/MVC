@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>Hi Hello </h1>
+        <br />
+    </div>
+    <div>
+        @{
+
+            bool istrue = true;
+        }
+
+        <h1>If Statement</h1>
+
+
+        @if (istrue)
+        {
+            <h3>I am From if block</h3>
+        }
+    </div>
+    <h1>If else Statement</h1>
+
+    <div>
+        @{
+            int a = 5;
+        }
+
+        @if (a == 1)
+        {
+            <h3>I am If Block</h3>
+        }
+        else if (a == 2)
+        {
+            <h3>I am else if Block</h3>
+        }
+        else
+        {
+            <h3>I am Else Block</h3>
+        }
+    </div>
+    <br />
+    <h1>Ternary Operator</h1>
+    <div>
+        @(a ==5? "Condition is true" : "Condition is false")
+    </div>
+  
+</body>
+</html>
