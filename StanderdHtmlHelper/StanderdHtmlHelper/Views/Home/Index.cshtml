@@ -12,9 +12,29 @@
         @Html.ActionLink("Click Here","About") --> in Home controller Index page close and open About page
     </div>
     <br />
+
     <div>
         @*yeka Controller chya view page varun dusrya controller chya view page vr janyasathi*@
         @Html.ActionLink("Click me","Index","Student") --> Home controller Index page Close and Open Student controller Index Page
+    </div>
+    <br />
+
+    <div>
+        @Html.TextBox("Textbox","Kedar Shivaji Dhumal")
+    </div>
+<br />
+
+    <div>
+        @{ 
+            string name = "Kedar";
+        }
+
+        @Html.TextBox("textbox1", name, new { id = "customeid", @class="MyCustomeClass", style="width:200px" })
+    </div>
+    <br />
+    <br />
+    <div>
+        @Html.CheckBox("checkbox1",true)
     </div>
 </body>
 </html>
