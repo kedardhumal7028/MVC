@@ -24,33 +24,28 @@
 
     @foreach (var product in Model)
     {
-        <tr>
-            <td>
-                @if (product != null && product.Product_name != null)
-                {
-                    @Html.DisplayFor(modelItem => product.Product_name)
-                }
+<tr>
+    <td>
+        @if (product != null && product.Product_name != null)
+        {
+@Html.DisplayFor(modelItem => product.Product_name) }
                 else
                 {
-                    <text>N/A</text>
-                }
-            </td>
-            <td>
-                @if (product.Product_qnty != null)
-                {
-                    @Html.DisplayFor(modelItem => product.Product_qnty)
-                }
+<text>N/A</text>                }
+    </td>
+    <td>
+        @if (product.Product_qnty != null)
+        {
+@Html.DisplayFor(modelItem => product.Product_qnty) }
                 else
                 {
-                    <text>N/A</text>
-                }
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "UpdateProduct", "Product", new { id = product.id }, new { @class = "btn btn-primary" })
-                @Html.ActionLink("Details", "ProductDetail", "Product", new { id = product.id }, new { @class = "btn btn-success" })
-                @Html.ActionLink("Delete", "DeleteProduct", "Product", new { id = product.id }, new { @class = "btn btn-danger" })
-            </td>
-        </tr>
-    }
+<text>N/A</text>                }
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "UpdateProduct", "Product", new { id = product.id }, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Details", "ProductDetail", "Product", new { id = product.id }, new { @class = "btn btn-success" })
+        @Html.ActionLink("Delete", "DeleteProduct", "Product", new { id = product.id }, new { @class = "btn btn-danger" })
+    </td>
+</tr>}
 
 </table>
