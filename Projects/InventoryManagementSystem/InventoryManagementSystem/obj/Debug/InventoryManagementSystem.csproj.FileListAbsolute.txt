@@ -143,6 +143,7 @@ D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bi
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\EntityFramework.dll
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\EntityFramework.SqlServer.dll
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Microsoft.ReportViewer.WebForms.dll
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Microsoft.Web.Infrastructure.dll
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Newtonsoft.Json.dll
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\System.Web.Helpers.dll
@@ -153,6 +154,9 @@ D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bi
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\System.Web.WebPages.dll
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\System.Web.WebPages.Razor.dll
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\WebGrease.dll
+D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Microsoft.ReportViewer.Common.dll
+D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Microsoft.SqlServer.Types.dll
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\EntityFramework.xml
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\EntityFramework.SqlServer.xml
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\System.Web.Helpers.xml
@@ -171,6 +175,3 @@ D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\ob
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.CopyComplete
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.dll
 D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
-D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Microsoft.ReportViewer.WebForms.dll
-D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Microsoft.ReportViewer.Common.dll
-D:\ASP.NET MVC 5\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Microsoft.ReportViewer.WebForms.xml

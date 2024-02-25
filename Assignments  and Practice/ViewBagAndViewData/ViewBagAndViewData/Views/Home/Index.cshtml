@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h1>
+        @ViewBag.Message
+     </h1>
+</div>
+<div>
+    <ul>
+        @foreach (var item in ViewBag.MyList)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</div>      
+<div>
+    <ul>
+        @foreach (var item in ViewBag.Myemplist)
+        {
+            <li>
+                Name - @item.Name, Email - @item.Email, ID - @item.Id
+            </li>
+        }
+    </ul>
+</div>
