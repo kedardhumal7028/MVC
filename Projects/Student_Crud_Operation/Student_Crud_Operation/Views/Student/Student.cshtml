@@ -1,0 +1,78 @@
+﻿
+@model Student_Crud_Operation.Context.Contact
+
+@{
+    ViewBag.Title = "Student";
+}
+
+<h2>Student</h2>
+
+@using(Html.BeginForm("AddStudent","Student",FormMethod.Post))
+{
+<div class="container">
+    <div class="form-group">
+        <label>First Name</label>
+        @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Middle Name</label>
+        @Html.TextBoxFor(x => x.MiddleName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Last Name</label>
+        @Html.TextBoxFor(x => x.SurName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Mobile No</label>
+        @Html.TextBoxFor(x => x.MobileNo, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>State</label>
+        @Html.TextBoxFor(x => x.State, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Country</label>
+        @Html.TextBoxFor(x => x.Country, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>District</label>
+        @Html.TextBoxFor(x => x.District, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Address</label>
+        @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>PostalCode</label>
+        @Html.TextBoxFor(x => x.PostalCode, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Location</label>
+        @Html.TextBoxFor(x => x.Location, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label for="createDate">Create Date</label>
+        @Html.TextBoxFor(x => x.CreateDate, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+    </div>
+
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+    @Html.ActionLink("Show All Records", "AllRecords", "Student", null, new { @class = "btn btn-primary" })
+
+
+</div>
+}
+

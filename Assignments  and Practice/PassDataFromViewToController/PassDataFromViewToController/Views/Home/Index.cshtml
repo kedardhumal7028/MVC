@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <section>
+            @using (Html.BeginForm("PostUsingParameter", "Home"))
+            {
+                <h2>Using Parameter</h2>
+                <input type="text" name="firstName" /><br />
+                <input type="text" name="lastName" /><br />
+                <br />
+                <input type="submit" value="Click me" />
+            }
+        </section>
+
+        <section>
+            <h1>Using Request</h1>
+            @using (Html.BeginForm("PostUsingRequest", "Home"))
+            {
+                <input type="text" name="firstName" /><br />
+                <input type="text" name="lastName" /><br />
+                <br />
+                <input type="submit" value="click me" />
+            }
+        </section>
+
+        <section>
+            <h1>Using Form Collection</h1>
+            @using (Html.BeginForm("UsingFormCollection", "Home"))
+            {
+                <input type="text" name="firstName" /><br />
+                <input type="text" name="lastName" /><br />
+                <br />
+                <input type="submit" value="click me" />
+            }
+        </section>
+    </div>
+</body>
+</html>
