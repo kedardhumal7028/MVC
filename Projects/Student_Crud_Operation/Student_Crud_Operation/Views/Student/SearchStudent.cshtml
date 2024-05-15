@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Search Student";
+}
+
+<h2>Search Student</h2>
+
+<div>
+    <form method="get" action="@Url.Action("SearchStudent", "Student")">
+        <input type="text" name="searchId" placeholder="Enter ID to search" />
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+@if (Model != null)
+{
+    <h3>Search Result:</h3>
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Middle Name</th>
+            <th>Last Name</th>
+            <th>Mobile No</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>District</th>
+            <th>Address</th>
+            <th>Postal Code</th>
+            <th>Location</th>
+            <th>Create Date</th>
+        </tr>
+        <tr>
+            <td>@Model.ID</td>
+            <td>@Model.FirstName</td>
+            <td>@Model.MiddleName</td>
+            <td>@Model.SurName</td>
+            <td>@Model.MobileNo</td>
+            <td>@Model.State</td>
+            <td>@Model.Country</td>
+            <td>@Model.District</td>
+            <td>@Model.Address</td>
+            <td>@Model.PostalCode</td>
+            <td>@Model.Location</td>
+            <td>@Model.CreateDate.ToString("yyyy-MM-dd")</td>
+        </tr>
+    </table>
+}
+else
+{
+    
+}

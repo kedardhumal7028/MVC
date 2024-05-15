@@ -14,7 +14,7 @@ namespace Student_Crud_Operation.Controllers
     {
 
         Crud_OperationDBEntities dbobj = new Crud_OperationDBEntities();
-        // GET: Student
+        
         public ActionResult Student()
         {
             return View();
@@ -56,7 +56,7 @@ namespace Student_Crud_Operation.Controllers
         }
 
 
-        // GET: Student/Edit/5
+        
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -71,7 +71,7 @@ namespace Student_Crud_Operation.Controllers
             return View(contact);
         }
 
-        // POST: Student/Edit/5
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(Contact contact)
@@ -85,7 +85,7 @@ namespace Student_Crud_Operation.Controllers
             return View(contact);
         }
 
-        // GET: Student/Delete/5
+        
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -100,7 +100,7 @@ namespace Student_Crud_Operation.Controllers
             return View(contact);
         }
 
-        // POST: Student/Delete/5
+        
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
@@ -110,6 +110,26 @@ namespace Student_Crud_Operation.Controllers
             dbobj.SaveChanges();
             return RedirectToAction("AllRecords");
         }
+
+        public ActionResult SearchStudent(int? searchId)
+        {
+            if (searchId.HasValue)
+            {
+                var student = dbobj.Contact.FirstOrDefault(c => c.ID == searchId.Value);
+                if (student != null)
+                {
+                    return View(student);
+                }
+            }
+
+            else
+            {
+                ViewBag.Message = "Record with the provided ID does not exist.";
+                return View();
+            }
+            return View();
+        }
+
 
 
 
