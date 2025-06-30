@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PassDataFromViewToController.Models;
 
 
 namespace PassDataFromViewToController.Controllers
@@ -33,6 +34,11 @@ namespace PassDataFromViewToController.Controllers
             string firstName = form["firstName"];
             string lastName = form["lastName"];
             return "From Form Collection " + firstName + " " + lastName;
+        }
+
+        public string PostUsingBinding(Employee emp)
+        {
+            return "From Strongly Binding " + emp.FirstName + " " + emp.LastName; 
         }
     }
 }

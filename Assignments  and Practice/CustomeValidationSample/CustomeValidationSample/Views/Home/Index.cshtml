@@ -1,0 +1,29 @@
+﻿@model CustomeValidationSample.Models.Employee
+@{
+    ViewBag.Title = "Index";
+}
+
+<html>
+    <head>
+        <meta name="viewport" content="Width=device-width" />
+        <title>Index</title>
+    </head>
+<body>
+    <div>
+        <h2>Index</h2>
+    </div>
+    <div>
+        @using (Html.BeginForm("", "", FormMethod.Post))
+        {
+            @Html.ValidationSummary()
+            
+            @Html.EditorFor(x=>x.Name) <br />
+            @Html.EditorFor(x=>x.Message)<br />
+            <br />
+            <input type="submit" value="Click me.." />
+        }
+    </div>
+</body>
+</html>
+
+

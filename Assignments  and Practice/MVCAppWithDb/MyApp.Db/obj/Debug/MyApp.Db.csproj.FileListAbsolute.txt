@@ -1,0 +1,14 @@
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\bin\Debug\MyApp.Db.dll.config
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\bin\Debug\MyApp.Db.dll
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\bin\Debug\MyApp.Db.pdb
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\bin\Debug\EntityFramework.dll
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\bin\Debug\MyApp.Models.dll
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\bin\Debug\MyApp.Models.pdb
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\bin\Debug\EntityFramework.xml
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\obj\Debug\MyApp.Db.csproj.AssemblyReference.cache
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\obj\Debug\MyApp.Db.csproj.CoreCompileInputs.cache
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\obj\Debug\MyApp.Db.csproj.CopyComplete
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\obj\Debug\MyApp.Db.dll
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Db\obj\Debug\MyApp.Db.pdb

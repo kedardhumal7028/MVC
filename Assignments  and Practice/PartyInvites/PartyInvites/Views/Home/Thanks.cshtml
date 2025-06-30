@@ -1,0 +1,43 @@
+﻿@model PartyInvites.Models.GuestResponce
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <title>Thanks</title>
+    <style>
+        body {
+            background-color: #F1F1F1;
+        }
+
+        .text-center {
+            margin-top: 50px;
+        }
+
+        .lead {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1>Thank you, @Model.Name!</h1>
+        <div class="lead">
+            @if (Model.WillAttend == true)
+            {
+                <p>It's great that you're coming. The drinks are already in the fridge!</p>
+            }
+            else
+            {
+                <p>Sorry to hear that you can't make it, but thanks for letting us know.</p>
+            }
+        </div>
+    </div>
+</body>
+</html>

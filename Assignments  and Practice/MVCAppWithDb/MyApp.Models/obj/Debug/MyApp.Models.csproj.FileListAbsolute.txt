@@ -1,0 +1,6 @@
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Models\bin\Debug\MyApp.Models.dll
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Models\bin\Debug\MyApp.Models.pdb
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Models\obj\Debug\MyApp.Models.csproj.AssemblyReference.cache
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Models\obj\Debug\MyApp.Models.csproj.CoreCompileInputs.cache
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Models\obj\Debug\MyApp.Models.dll
+D:\ASP.NET MVC 5\Assignments  and Practice\MVCAppWithDb\MyApp.Models\obj\Debug\MyApp.Models.pdb
